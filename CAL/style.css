@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background: #BDBDBD;
+}
+
+
+#calcContainer {
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    box-shadow: 0.5em 0.5em 1.2em rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #ffffff;
+}
+
+
+.result-clear {
+    display: flex;
+}
+
+#display {
+    width: 75%;
+    height: 60px;
+    font-size: 1.4em;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+
+
+.grid-buttons {
+    background: #212121;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.grid-buttons button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: white;
+    background: #212121;
+    width: 25%;
+    padding: 4%;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.clear {
+    background: #009688;
+    width: 25%;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.grid-buttons .math {
+    background: #757575;
+}
+
+
+.grid-buttons button:hover,
+.clear:hover {
+    background: #00BCD4;
+    transition: 0.3s ease;
+}
